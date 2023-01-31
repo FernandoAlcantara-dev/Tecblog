@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/*Geral*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-color: #E6E6E6;
+}
+
+/*Topo*/
+header{
+    position: sticky;
+    top: 0;
+    background-color: #F7B600;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+    z-index: 2;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+h1 span{
+    color: #4E4E4E;
+}
+
+header a{
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover{
+    color: #F7B600;
+    background-color: #fff;
+}
+
+/*Corpo geral*/
+main{
+    position: relative;
+    width: 900px;
+    margin: auto;
+}
+
+/*Artigos*/
+article{
+    width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.chamada{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #CCCCCC;
+}
+
+.foto{
+    width: 100%;
+}
+
+.amarelo{
+    color: #F7B600;
+}
+
+a.amarelo{
+    text-decoration: none;
+}
+
+.pequeno{
+    font-size: small;
+}
+
+/*Outras leituras*/
+
+.extras{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+aside{
+    background-color: #fff;
+    width: 280px;
+    padding: 10px;
+    margin: 0px 0px 10px 10px;
+}
+
+h3{
+    background-color: #CCCCCC;
+    color: #4E4E4E;
+    padding: 10px;
+}
+
+aside div{
+    padding: 5px;
+}
+
+ul{
+    padding: 5px 0px;
+    list-style-type: none;
+}
+
+.linha{
+    border-bottom: 1px dashed #CCCCCC;
+}
+
+/*Rodapé*/
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #CCCCCC;
+}
+
+footer p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
